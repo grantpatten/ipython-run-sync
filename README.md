@@ -2,7 +2,9 @@
 Automatically run returned Futures synchronously
 
 # Installation
+```
 %install_ext https://raw.githubusercontent.com/grantpatten/ipython-run-sync/master/run_sync.py
+```
 
 # Loading Extension
 ```
@@ -21,7 +23,6 @@ ipython
 ```
 %load_ext run_sync
 from tornado.gen import coroutine, sleep, Return
-
 
 @coroutine
 def async_function():
