@@ -4,7 +4,6 @@ setup(
     name='ipython-run-sync',
     version='1.0.0',
     description='Automatically run returned Futures synchronously in ipython',
-    packages=['run_sync'],
     url='https://github.com/grantpatten/ipython-run-sync',
     author='grantpatten',
     requires=[
@@ -16,4 +15,5 @@ setup(
         'Programming Language :: Python :: 2',
         'Programming Language :: Python :: 2.7',
     ],
+    py_modules=['run_sync']
 )
