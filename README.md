@@ -3,13 +3,8 @@ Automatically run returned Futures synchronously
 
 # Installation
 ```
-%install_ext https://raw.githubusercontent.com/grantpatten/ipython-run-sync/master/run_sync.py
-```
-
-# Loading Extension
-```
-pip install ipython-run-sync
 ipython
+%install_ext https://raw.githubusercontent.com/grantpatten/ipython-run-sync/master/run_sync.py
 %load_ext run_sync
 ```
 
